@@ -22,8 +22,6 @@ This project involves document similarity using the Bag-of-Words model and cosin
 ### Usage
 Execute the `Bag-of-words.ipynb` notebook to see the implementation and results.
 
-### Files
-- [Bag-of-words.ipynb](Bag-of-words/Bag-of-words.ipynb)
 
 ## IMDB_Analysis
 ### Description
@@ -40,8 +38,6 @@ This project fine-tunes a language model using an "instruct" dataset to enhance 
 ### Usage
 Execute the `Instruct.ipynb` notebook to see the implementation and results.
 
-### Files
-- [Instruct.ipynb](Instruct/Instruct.ipynb)
 
 ## LSTM-Glove
 ### Description
@@ -55,12 +51,20 @@ This project applies a Long Short-Term Memory (LSTM) model to text classificatio
 ### Usage
 Execute the `LSTM-Glove.ipynb` notebook to see the implementation and results.
 
-### Files
-- [LSTM-Glove.ipynb](LSTM-Glove/LSTM-Glove.ipynb)
 
-## Seq2Seq-Autoatención
+## Seq2Seq-Autoatención
 ### Description
-Details not available for this project.
+This project implements a Seq2Seq model with self-attention for translating sentences from English to Spanish. The model uses LSTM for encoding and decoding sequences and incorporates an attention mechanism to improve translation accuracy.
+
+### Key Components
+- **Dataset**: Europarl dataset for English-Spanish language pairs.
+- **Seq2Seq Model**: Encoder-decoder architecture using LSTM layers.
+- **Attention Mechanism**: Self-attention to focus on relevant parts of the input sequence.
+- **Teacher Forcing**: Technique to improve model training by using the actual target output as the next input.
+
+### Usage
+Execute the `seq2seq.ipynb` notebook to see the implementation and results. The notebook covers data preparation, model training, and evaluation.
+
 
 ## Transformer-Autoatención
 ### Description
