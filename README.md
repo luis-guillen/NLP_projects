@@ -78,5 +78,3 @@ This project involves implementing the self-attention mechanism with masking in 
 ### Usage
 Execute the `Transformer-Autoatención.ipynb` notebook to see the implementation and results.
 
-### Files
-- [Transformer-Autoatención.ipynb](Transformer-Autoatención/Transformer-Autoatención.ipynb)
